@@ -1,36 +1,24 @@
-# en tu terminal
-git clone https://github.com/TUUSUARIO/mi-web.git
-cd mi-web
-# crea archivos index.html, style.css, script.js
-git add .
-git commit -m "Mi sitio inicial"
-git push origin main
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Mi web en GitHub Pages</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de la vaca 🐄</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Mi web de prueba</h1>
-    <p>Publicada con GitHub Pages 🚀</p>
-  </header>
+  <!-- Barra de navegación -->
+  <div class="navbar">
+    <a href="#">Inicio</a>
+    <a href="#">Sobre la vaca</a>
+    <a href="#">Galería</a>
+    <a href="#">Contacto</a>
+  </div>
 
-  <main>
-    <section>
-      <h2>Hola mundo</h2>
-      <p>Esta es una página estática para aprender GitHub Pages.</p>
-      <button id="btn">Haz clic</button>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 — Mi nombre</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <!-- Contenido principal -->
+  <div class="main-content">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Cow_in_field_glasgow.jpg" alt="Vaca">
+  </div>
 </body>
 </html>
+
